@@ -1,0 +1,96 @@
+@keyframes swipeInRight1 {
+    from {
+        opacity: 0;
+        transform: translateX(1em);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes swipeInRight2 {
+    from {
+        opacity: 0;
+        transform: translateX(2em);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes swipeInLeft1 {
+    from {
+        opacity: 0;
+        transform: translateX(-1em);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes swipeInLeft2 {
+    from {
+        opacity: 0;
+        transform: translateX(-2em);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(.7, .7);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1, 1);
+    }
+}
+@keyframes zoomInRight {
+    from {
+        opacity: 0;
+        transform: scale(.7, .7) translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1, 1) translateX(0);
+    }
+}
+@keyframes zoomInLeft {
+    from {
+        opacity: 0;
+        transform: scale(.7, .7) translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1, 1) translateX(0);
+    }
+}
+
+.fadeIn.in-view{
+    animation: fadeIn 1s;
+}
+.zoomIn.in-view{
+    animation: zoomIn 1s;
+}
+.zoomInRight.in-view{
+    animation: zoomInRight 1s;
+}
+.zoomInLeft.in-view{
+    animation: zoomInLeft 1s;
+}
