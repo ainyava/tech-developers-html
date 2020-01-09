@@ -1,5 +1,5 @@
 #  Technical and Vocational Programmers Company
-### [LIVE DEMO](https://mahcodes.github.io/static-techdevelopers/)
+### [LIVE DEMO](https://ainyava.github.io/techdevelopers/)
 This is a static template for a company website and built with these technologies :
  - HTML
  - CSS
